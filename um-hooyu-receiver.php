@@ -1,15 +1,15 @@
 <?php
 /**
- * WP Remote Post Receiver
+ * Ultimate Member Hooyu Receiver
  *
  * A file that retrieves values from a POST request and then renders
  * the markup for the request.
  *
- * @package   WP_Remote_Post
- * @author    Tom McFarlin <tom@tommcfarlin.com>
+ * @package   UM_Hooyu
+ * @author    Matt Radford <matt@10degrees.uk>
  * @license   GPL-2.0+
- * @link      http://tommcfarlin.com
- * @copyright 2013 Tom McFarlin
+ * @link      https://www.10degrees.uk
+ * @copyright 2017 10°
  */
 
 // Build up the HTML display of of the data

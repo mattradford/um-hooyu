@@ -1,14 +1,14 @@
 <?php
 /**
- * WP Remote Post Example
+ * Ultimate Member Hooyu
  *
  * An example plugin demonstrating how to use `wp_remote_post`.
  *
- * @package   WP_Remote_Post
- * @author    Tom McFarlin <tom@tommcfarlin.com>
+ * @package   UM_Hooyu
+ * @author    Matt Radford <matt@10degrees.uk>
  * @license   GPL-2.0+
- * @link      http://tommcfarlin.com
- * @copyright 2013 Tom McFarlin
+ * @link      https://www.10degrees.uk
+ * @copyright 2017 10°
  */
 
 /**
@@ -16,10 +16,10 @@
  *
  * An example plugin demonstrating how to use `wp_remote_post`.
  *
- * @package   WP_Remote_Post
- * @author    Tom McFarlin <tom@tommcfarlin.com>
+ * @package   UM_Hooyu
+ * @author    Matt Radford <matt@10degrees.uk>
  */
-class WP_Remote_Post_Example {
+class UM_Hooyu {
 
 	/**
 	 * Instance of this class.
@@ -66,7 +66,7 @@ class WP_Remote_Post_Example {
 	 * @since    1.0.0
 	 */
 	public function load_plugin_textdomain() {
-		load_plugin_textdomain( 'wprp-example', FALSE, dirname( plugin_basename( __FILE__ ) ) . '/lang/' );
+		load_plugin_textdomain( 'um-hooyu', FALSE, dirname( plugin_basename( __FILE__ ) ) . '/lang/' );
 	} // end load_plugin_textdomain
 
 	/**
@@ -77,10 +77,10 @@ class WP_Remote_Post_Example {
 	public function add_style_sheet() {
 
 		if( is_single() ) {
-			wp_enqueue_style( 'wp-remote-post-example-style', plugins_url( 'wp-remote-post-example/css/display.css' ) );
+			wp_enqueue_style( 'wp-remote-post-example-style', plugins_url( 'um-hooyu/css/display.css' ) );
 		} // end if
 
-	} // end add_style_seet
+	} // end add_style_sheet
 
 	/**
 	 * Appends the post response after making a request to the receiver to the content.
