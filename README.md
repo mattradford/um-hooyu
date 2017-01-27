@@ -4,22 +4,22 @@
 * Tested up to: 4.7.2
 * Stable tag: 2.0.0
 
-`Ultimate Member Hooyu` is a plugin to integrate [Ultimate Member](https://wordpress.org/plugins/ultimate-member/) with the [HooYu ID Verfication service](https://www.hooyu.com/). It uses Tom McFarlin's `wp_remote_post_example` as a starting point.
+`Ultimate Member Hooyu` is a plugin to integrate [Ultimate Member](https://wordpress.org/plugins/ultimate-member/) with the [HooYu ID Verfication service](https://www.hooyu.com/).
 
-`wp_remote_post_example` is a simple plugin used to demonstrate how to take advantage of the WordPress HTTP API for submitting post requests.
+It is based on Tom McFarlin's `wp_remote_post_example` as a starting point. `wp_remote_post_example` is a simple plugin used to demonstrate how to take advantage of the WordPress HTTP API for submitting post requests. The original plugin was used as part of the [A Look at the WordPress HTTP API](http://wp.tutsplus.com/series/a-look-at-the-wordpress-http-api/) series on [WPTuts+](http://wp.tutsplus.com/).
 
 ## Description
 
 To-do
 
-Note that this plugin is used as part of the [A Look at the WordPress HTTP API](http://wp.tutsplus.com/series/a-look-at-the-wordpress-http-api/) series on [WPTuts+](http://wp.tutsplus.com/).
+The plugin uses [HooYu's API](https://business.hooyu.com/documentation) to send verification requests and receive responses. The actual verification process takes place on the HooYu website.
 
 ## Installation
 
 ### Using The WordPress Dashboard
 
 1. Navigate to the 'Add New' Plugin Dashboard
-2. Select `wp-remote-post-example.zip` from your computer
+2. Select `um-hooyu.zip` from your computer
 3. Upload
 4. Activate the plugin on the WordPress Plugin Dashboard
 
